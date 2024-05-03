@@ -1,0 +1,1 @@
+export type Sinppet = {id:string, title: string, code: string }

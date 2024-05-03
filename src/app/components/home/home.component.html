@@ -1,0 +1,12 @@
+<div>
+  <ul>
+    @if(items.length == 0){
+    <li>No data</li>
+    } @for (item of items; track item.id) {
+    <li [routerLink]="['bin-detail/', item.id]">
+      {{ item.title.charAt(0).toUpperCase() + item.title.slice(1) }}
+    </li>
+    }
+  </ul>
+  <!-- <app-sizer [size]="20" ></app-sizer> -->
+</div>

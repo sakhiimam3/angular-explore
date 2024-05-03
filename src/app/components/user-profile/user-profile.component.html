@@ -1,0 +1,24 @@
+<!-- <div *ngFor="let user of users">
+  @for(user of users;track user.name){
+         @if(user.salary > 2000){
+            <h4>Name : {{ user.name }} - salary : {{ user.salary }}</h4>
+         }@else {
+            <h4>Name : {{ user.name }} - salary : {{ user.salary }}</h4>
+
+         }
+    }
+
+    <h4 *ngIf="user.salary > 2000 ,else elseBlock">Name : {{ user.name }} - salary : {{ user.salary }}</h4>
+    <ng-template #elseBlock>
+      <h4>Name : {{ user.name }} - salary : {{ user.salary }}</h4>
+
+    </ng-template>
+
+</div> -->
+
+<!-- <h5>Input updated : {{inputVal}}</h5>
+
+<input type="text" [(ngModel)]="inputVal" /> -->
+<h4>Name : {{name}} status - {{status}}</h4>
+  <h5>Number : {{number | countryCode }}</h5>
+<button (click)="sendData()">send data </button>

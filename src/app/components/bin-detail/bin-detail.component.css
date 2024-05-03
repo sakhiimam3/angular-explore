@@ -1,0 +1,26 @@
+.snippetDetail{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     
+}
+
+.snippetDetail > .wrapper{
+     width: 50%;
+    margin: 10px 30px;
+}
+
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    height: 100px;
+ 
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    
+  }
